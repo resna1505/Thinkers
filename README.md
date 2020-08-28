@@ -1,0 +1,2 @@
+# thinkers
+Universitas Ibnu Sina
