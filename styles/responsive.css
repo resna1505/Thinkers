@@ -1,0 +1,173 @@
+/* responsive */
+@media(max-width: 1170px){
+  .container-landing-page{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100% !important;
+  }
+
+  .title-landing-page{
+    width: 100% !important;
+    margin-bottom:100px;
+    margin-top:45px;
+  }
+   .pola3{
+    top: 28% !important;
+    right: 28% !important;
+  }
+
+  /* .pola1{
+    top: 32% !important;
+  }
+  .pola2{
+    bottom: 21% !important;
+    left: 55% !important;
+  }
+ 
+  .pola4{
+    bottom: 20% !important;
+    left: 45% !important;
+  }
+  .pola5{
+    bottom: 27% !important;
+    left: 54% !important;
+  } */
+
+  .img-container{
+  width: 100% !important;
+  }
+}
+
+@media(max-width: 744px){
+  .border-img-hut{
+    display: none;
+  }
+
+  .img-hut{
+    margin-right:0;
+    position: relative;
+    left: 3%;
+    width: 95% !important;
+  }
+
+  .btn-see-more{
+    margin-left: 2%;
+  }
+  
+  .title {
+    margin-left: 2%
+  }
+}
+
+@media(max-width: 458px){
+  .small-subtitle{
+    font-size: 20px;
+  }
+  .subtitle-2 {
+      font-size: 31px;
+  }
+  .font-96 {
+    font-size: 70px;
+  }
+}
+
+@media(max-width: 949px){
+  .logo img{
+     padding: 10px 1% 0 30px;
+  }
+}
+
+@media(max-width: 1019px){
+  .thinker-card{
+    margin: 45px 20px !important;
+  }
+  .container-teams{
+    height: 100% !important;
+  }
+  .container-gallery{
+    height: 100% !important;
+  }
+}
+
+@media(max-width: 1000px){
+  .menu-header a{
+    display: none;
+  }
+  .hubungi-kami{
+    display: none;
+  }
+  .burger{
+    display: block;
+    font-size: 60px;
+    color: white;
+    padding-left: 85%;
+    padding-top: 20px;
+  }
+  /* .menu-burger{
+    width: 75px;
+    height: 200px;
+    display: inline;
+  } */
+  .cards{
+    width: 50% !important;
+  }
+  .kotak-hubungi{
+    border-radius: 20px;
+  }
+  .memory{
+    border-radius: 20px;
+  }
+
+  
+}
+
+@media(max-width: 550px){
+  .cards{
+    width: 75% !important;
+  }
+}
+
+@media(max-width: 564px){
+  .container-hubungi{
+    height: 100% !important;
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .kotak-hubungi{
+    width: 296px;
+    border-left: 3px solid #ababab;
+    border-top: none;
+    margin-left: 0px;
+    margin-top: -20px;
+    z-index: -1;
+  }
+  .kotak-hubungi img{
+    width: 50%;
+    height: 50%;
+  }
+  .kotak-hubungi{
+    border-radius: 0 0 20px 20px;
+  }
+  .memory{
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media(max-width: 468px){
+  .small-subtitle{
+    font-size: 17px !important;
+    text-align: center;
+  }
+  .subtitle-2{
+    text-align: center;
+    font-size: 26px !important;
+  }
+.font-96{
+    font-size: 60px !important;
+  }
+  .pola1, .pola2, .pola3, .pola4, .pola5{
+    display: none
+  }
+}
+

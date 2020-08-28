@@ -1,0 +1,133 @@
+.container-landing-page{
+  display: flex;
+  width: 100%;
+  height: 75vh;
+  /* padding-top: 40px; */
+  padding: 100px 0;
+  border-bottom: 1px solid #ababab;
+  overflow: hidden;
+}
+
+.title-landing-page{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
+.title a{
+  width: 35%;
+  padding: 0;
+  left: 0;
+}
+
+.subtitle-2{
+  font-size: 43px;
+}
+
+.small-subtitle{
+  font-size: 27px;
+  margin-top: 20px;
+}
+
+.shadow{
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.img-container{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-hut{
+  margin-right: 45px;
+  border-radius: 120px 0px; 
+  box-shadow: 5px 5px 3px rgba(126, 126, 126, 0.5);
+}
+
+.border-img-hut{
+  width: 671px;
+  height: 451px;
+  border-radius: 120px 0px;
+  border: 5px solid #8E0000;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 50px;
+  z-index: -1;
+}
+
+.btn-see-more{
+  margin-top: 28px;
+  border-radius: 15px;
+  border: none;
+  width: 150px;
+  height: 30px;
+  left: 114px;
+  top: 511px;
+  background: #FF0000;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 2px darkgray;
+}
+
+.btn-see-more:active{
+  position: relative;
+  top: 3px;
+  left: 3px;
+  box-shadow: none;
+}
+
+.pola1{
+    position: absolute;
+    padding-bottom: 280px;
+}
+
+.pola2{
+  position: absolute;
+  /* bottom: 5%;
+  left: 25%; */
+  margin-left: 238px;
+  margin-top: 149px;
+  
+}
+
+.pola3{
+  position: absolute;
+  top: 35%;
+  right: 60%;
+  animation: rotate 5s infinite;
+}
+
+.pola4{
+  position: absolute;
+    margin-left: 145px;
+  margin-top: 165px;
+  /* bottom: 3%;
+  left: 15%; */
+}
+
+.pola5{
+  position: absolute;
+  margin-top: 101px;
+  margin-left: 200px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: smoothScroll 1s forwards;
+}
+

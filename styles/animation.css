@@ -1,0 +1,119 @@
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 1.0;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight{
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 1.0;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInDown{
+  0%{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 1.0;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInZoom{
+  0%{
+    opacity: 0;
+     transform: scaleX(1.5);
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 1.0;
+     transform: scaleX(1);
+  }
+}
+
+.fadeInZoom{
+  opacity: 1;
+  animation: fadeInZoom 2s
+}
+   
+
+.fadeInLeft{
+  opacity: 1;
+  animation: fadeInLeft 2s
+}
+
+.fadeInDown{
+  opacity: 1;
+  animation: fadeInDown 2s
+}
+
+.fadeInLeft-3{
+  animation: fadeInLeft 3s
+}
+
+.fadeInLeft-5{
+  animation: fadeInLeft 5s
+}
+
+.fadeInLeft-7{
+  animation: fadeInLeft 7s
+}
+
+.fadeInLeft-10{
+  animation: fadeInLeft 10s
+}
+
+.fadeInRight{
+  opacity: 1;
+  animation: fadeInRight 2s
+}

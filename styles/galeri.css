@@ -1,0 +1,86 @@
+.container-gallery {
+  width: 100%;
+  height: 1000px;
+  padding-top: 120px;
+  /* margin: 100px 0;
+  border-top: 1px solid #ababab; */
+}
+
+.container-gallery h2{
+  padding: 20px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cards {
+  width: 30%;
+  height: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 3px rgba(126, 126, 126, 0.5);
+  overflow: hidden;
+  /* float: left; */
+}
+
+.cd1{
+  opacity: 0;
+}
+
+.cd2{
+  opacity: 0;
+}
+
+
+.cards-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-border {
+  border: 2px solid #C62828;
+  border-radius: 10px;
+}
+
+.container-gallery .cards img{
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  /* filter: blur(3px); */
+  opacity: 0.5;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 0 10px 20px;
+}
+
+.galeri-desc {
+  font-size: 11px;
+  font-weight: medium;
+  padding-left: 20px;
+  width: 90%;
+  line-height: 15px;
+  text-align: justify;
+}
+
+.burger{
+  display: none;
+}
+
+.burger:hover{
+  cursor: pointer;
+}
+
+.container-gallery .cards img:hover{
+  background: lightseagreen;
+  /* filter: blur(0); */
+  opacity: 1.0;
+}
+
+#thumbnail{
+  display: none;
+}
